@@ -1,4 +1,4 @@
-FROM agilesrc/centos-java:6-7
+FROM agilesrc/centos-java:6-8
 
 MAINTAINER "AgileSrc LLC" <support@agilesrc.com>
 
