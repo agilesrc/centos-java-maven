@@ -13,6 +13,7 @@ RUN curl http://www.us.apache.org/dist/maven/maven-3/${MAVEN_VERSION}/binaries/a
 ENV PATH=$PATH:/usr/share/apache-maven-${MAVEN_VERSION}/bin
 ENV HOME /root
 
+VOLUME /source
 VOLUME /M2_HOME
 RUN ln -s /M2_HOME /root/.m2
 
