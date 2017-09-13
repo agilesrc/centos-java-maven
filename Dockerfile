@@ -1,8 +1,8 @@
-FROM agilesrc/centos-java:latest
+FROM agilesrc/centos-java:7-8
 
 MAINTAINER "AgileSrc LLC" <support@agilesrc.com>
 
-ENV MAVEN_VERSION 3.3.9
+ENV MAVEN_VERSION 3.5.0
 
 RUN curl http://www.us.apache.org/dist/maven/maven-3/${MAVEN_VERSION}/binaries/apache-maven-${MAVEN_VERSION}-bin.tar.gz > /usr/share/maven.tar.gz && \
     cd /usr/share && \
